@@ -1,0 +1,69 @@
+.login-page,
+.login-container,
+.login-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  border: 1px lightgray solid;
+  border-radius: 4px;
+}
+
+#logo {
+  margin: 20px 0;
+}
+
+.sign-in {
+  width: 100%;
+  padding: 20px;
+  padding-left: 20px;
+  text-align: left;
+  font-weight: 500;
+}
+
+.width {
+  width: 300px;
+  margin: 0 0 20px 0;
+}
+
+button.width,
+input.width {
+  height: 30px;
+  border-radius: 0;
+}
+
+button.width {
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+input.width {
+  padding: 0 1ch;
+  margin-top: 5px;
+  border: 1px solid black;
+}
+
+.login-details > label {
+  font-weight: bold;
+}
+
+button.width:first-of-type {
+  background-color: #f0c14b;
+}
+
+button.width:first-of-type:active {
+  background-color: hsl(43, 85%, 82%);
+}
+
+.login-details {
+  padding: 0 20px 0 20px;
+}
+
+p.width {
+  font-size: 0.75rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}

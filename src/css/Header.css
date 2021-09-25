@@ -67,6 +67,7 @@
 .faded {
   font-size: 0.75rem;
   /* opacity: 75%; */
+  color: hsla(0, 0, 0, 0.75);
 }
 
 .bold {

@@ -9,12 +9,12 @@ import {
 // import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC-q6-9mp_ae7sff3mc7L8AhsomV0-BaSA",
-  authDomain: "clone-using-react-6bc19.firebaseapp.com",
-  projectId: "clone-using-react-6bc19",
-  storageBucket: "clone-using-react-6bc19.appspot.com",
-  messagingSenderId: "263360986204",
-  appId: "1:263360986204***REMOVED***d52a172b246860619a3a99",
+  apiKey: "***REMOVED***",
+  authDomain: ***REMOVED***,
+  projectId: "***REMOVED***",
+  storageBucket: ***REMOVED***,
+  messagingSenderId: "***REMOVED***",
+  appId: ***REMOVED***,
 };
 
 const app = initializeApp(firebaseConfig);

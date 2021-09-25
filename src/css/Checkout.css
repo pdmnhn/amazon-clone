@@ -1,6 +1,6 @@
 .checkout-page {
   background-color: #e9e9e9;
-  height: 100vh;
+  height: max-content;
 }
 
 .header-component {

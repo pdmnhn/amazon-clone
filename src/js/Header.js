@@ -51,17 +51,17 @@ const Header = () => {
         </button>
       </form>
       <div onClick={changeSignInState} className="user options" tabIndex="0">
-        <span className="faded">Hello {username}</span>
+        <span className="small-text">Hello {username}</span>
         <span className="bold">
           {username !== GUEST ? "Sign Out" : "Sign In"}
         </span>
       </div>
       <div className="orders options" tabIndex="0">
-        <span className="faded">Returns &amp;</span>
+        <span className="small-text">Returns &amp;</span>
         <span className="bold">Orders</span>
       </div>
       <div className="prime options" tabIndex="0">
-        <span className="faded">Your</span>
+        <span className="small-text">Your</span>
         <span className="bold">Prime</span>
       </div>
       <div className="cart" onClick={checkOut} tabIndex="0">

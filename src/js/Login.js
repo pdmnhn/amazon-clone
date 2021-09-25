@@ -1,6 +1,6 @@
 import Logo from "../assets/black-logo.svg";
 import "../css/Login.css";
-import { useHistory } from "react-router-dom";
+import { useHistory, useLocation } from "react-router-dom";
 import { auth, signIn, signUp } from "./firebase.js";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { useState } from "react";
@@ -15,6 +15,12 @@ const Login = () => {
   const [user] = useAuthState(auth);
   const history = useHistory();
   const { dispatch } = useContext(StateContext);
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    console.log(pathname);
+  }, [pathname]);
 
   useEffect(() => {
     if (user) {

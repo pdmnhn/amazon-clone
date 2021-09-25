@@ -1,9 +1,18 @@
 import "../css/Home.css";
 import Product from "./Product";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import { dummyData } from "./dummyData.js";
 import banner from "../assets/banner.png";
 
 const Home = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    console.log(pathname);
+  }, [pathname]);
+
   return (
     <div className="page">
       <img

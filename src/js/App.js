@@ -1,24 +1,12 @@
 import "../css/App.css";
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-  useLocation,
-} from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./Home";
 import Header from "./Header";
 import { StateProvider } from "./StateContext";
 import { initialState, reducer } from "./reducer.js";
 import Login from "./Login.js";
 import Checkout from "./Checkout.js";
-import { useEffect } from "react";
 const App = () => {
-  const { pathname } = useLocation();
-
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [pathname]);
-
   return (
     <StateProvider initialState={initialState} reducer={reducer}>
       <Router>

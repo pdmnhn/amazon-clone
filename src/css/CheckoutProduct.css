@@ -1,0 +1,52 @@
+.checkout-card {
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  padding: 0 1rem 1rem 1rem;
+  gap: 1rem;
+  align-items: center;
+  align-self: stretch;
+}
+
+.checkout-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-self: flex-start;
+}
+
+.checkout-price {
+  font-weight: 800;
+}
+
+.checkout-price::before {
+  content: "$";
+  font-weight: normal;
+}
+
+.checkout-title {
+  font-weight: 500;
+}
+
+.checkout-card > img {
+  max-width: 10rem;
+}
+
+.remove-from-cart {
+  width: fit-content;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  background-color: #f0c24c;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.remove-from-cart:active {
+  background-color: hsl(43, 85%, 82%);
+}
+
+.checkout-rating {
+  display: flex;
+  flex-direction: row;
+}

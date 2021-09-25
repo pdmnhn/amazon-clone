@@ -1,0 +1,31 @@
+.subtotal {
+  padding: 20px;
+  background-color: #f3f3f3;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.price-total {
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.gift-container {
+  margin-bottom: 20px;
+}
+
+#gift {
+  margin-right: 0.5rem;
+}
+
+.checkout {
+  width: 300px;
+  padding: 0.5rem;
+  background-color: #f0c24c;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.checkout:active {
+  background-color: hsl(43, 85%, 82%);
+}
